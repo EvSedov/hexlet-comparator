@@ -28,7 +28,7 @@ const HexletComparator = ({ Component, pageProps }) => {
 
   const component = (
     <>
-      <NextSeo
+      <NextSeo 
         {...SEO}
         canonical={canonicalUrl}
       />
